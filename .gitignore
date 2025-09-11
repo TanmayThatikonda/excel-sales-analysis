@@ -1,0 +1,34 @@
+
+# Ignore temporary lock files created when an Excel file is open
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+~$*.xlsb
+
+# Ignore Excel backup files
+*.xlk
+
+# Ignore legacy temporary file formats
+~*.tmp
+
+
+
+# General OS and System files
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+
+# Archive files
+
+# Ignore compressed files if you zip the project for any reason
+*.zip
+*.rar
+*.7z
